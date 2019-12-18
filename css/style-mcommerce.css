@@ -1182,16 +1182,47 @@ body {
     }
 }
 
-.ui-btn-up-purchase,
+/* .ui-btn-up-purchase,
 .ui-btn-hover-purchase {
     background: #0058a3 !important;
-}
+} */
 
+/*
 .ui-btn-up-purchase:hover:not(:disabled),
 .ui-btn-hover-purchase:hover:not(:disabled) {
     background: #3379b5;
     color: #fff;
     border-radius: 4px;
+}
+*/
+
+.ui-btn-up-purchase{
+    background: #0058a3!important;
+    color: #fff;
+    border-radius: 2px;
+    padding: 1rem 1.5rem;
+    transition-property: background-color,border-radius,width;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(.4,0,0,1);
+    font-weight: 700;
+    font-size: .875rem!important;
+    display: inline-blockimportant;
+}
+.ui-btn-up-purchase:focus,
+.ui-btn-hover-purchase{
+    background: #3379b5!important;
+    color: #fff;
+    border-radius: 4px;
+    transition-property: background-color,border-radius,width;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(.4,0,0,1);
+}
+.ui-btn-up-purchase:active{
+    background: #004682!important;
+    border-radius: 8px;
+}
+.ui-btn-up-purchase, .ui-btn-hover-purchase, .ui-btn-down-purchase, .ikea-pip-purchase-button .ui-btn-active{
+    border: none!important;
 }
 
 #checkoutOptimization #ikea-shoppinglist-list .productRow {
