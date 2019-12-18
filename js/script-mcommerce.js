@@ -200,7 +200,7 @@
 
       var $trustMarks = jQuery('#trustMarksWrapper');
       if ($trustMarks) {
-          $trustMarks.html('<img alt="mada" src="https://m.ikea.com/ms/en_SA/img/payment_methods/mada.png"> <img alt="visa card" src="https://m.ikea.com/ms/en_SA/img/payment_methods/visa_card.png"> <img alt="master card" src="https://m.ikea.com/ms/en_SA/img/payment_methods/master_card.png"> <img alt="installment" src="https://m.ikea.com/ms/en_SA/img/payment_methods/installment.png">');
+          $trustMarks.html('<img alt="KNET" src="https://checkout.kw.ikea.com/Themes/K3Checkout/Content/images/knet_logo.png"> <img alt="visa card" src="https://checkout.kw.ikea.com/Themes/K3Checkout/Content/images/mc_visa_logo.png"> <img alt="amex" src="https://savah.github.io/img/amex_109.png">');
       }
       
       // show shopping-cart counter
