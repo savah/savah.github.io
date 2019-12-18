@@ -162,7 +162,7 @@
   }
 
   function modifyHeaderFooter() {
-      const baseURL = '/kw/' + lang + '/';
+      const baseURL = 'https://www.ikea.com/kw/' + lang + '/';
       const $body = jQuery('body');
       const www = (lang == 'ar')? 'ar' : 'www';
       
