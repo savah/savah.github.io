@@ -1185,6 +1185,7 @@ body {
 .ui-btn-up-purchase,
 .ui-btn-hover-purchase {
     background: #0058a3 !important;
+    border: none;
 }
 
 .ui-btn-up-purchase:hover:not(:disabled),
@@ -1194,6 +1195,10 @@ body {
     border-radius: 4px;
 }
 
+.ui-btn-text {
+    font-weight: 700;
+    font-size: .875rem;
+}
 
 /* .ui-btn-up-purchase{
     background: #0058a3!important;
