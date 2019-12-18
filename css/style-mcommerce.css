@@ -1184,7 +1184,14 @@ body {
 
 .ui-btn-up-purchase,
 .ui-btn-hover-purchase {
-    background: #2d6596 !important;
+    background: #0058a3 !important;
+}
+
+.ui-btn-up-purchase:hover:not(:disabled),
+.ui-btn-hover-purchase:hover:not(:disabled) {
+    background: #3379b5;
+    color: #fff;
+    border-radius: 4px;
 }
 
 #checkoutOptimization #ikea-shoppinglist-list .productRow {
