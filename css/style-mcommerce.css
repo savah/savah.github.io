@@ -1186,6 +1186,9 @@ body {
 .ui-btn-hover-purchase {
     background: #0058a3 !important;
     border: none;
+    border-radius: 2px;
+    transition-property: background-color,border-radius,width;
+    transition-timing-function: cubic-bezier(.4,0,0,1);
 }
 
 .ui-btn-up-purchase:hover:not(:disabled),
