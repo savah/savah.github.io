@@ -3,6 +3,9 @@
   console.log('redirect loaded');
 
   var PrevURL = document.referrer;
+  
+
+   
   //shopping list AR
   if ((PrevURL === 'https://securem.ar.ikea.com/kw/ar/login/') && (window.location.href.indexOf("/kw/ar/shoppinglist/") > -1)) {
       window.location.href = "https://secure.ar.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=37&langId=-47";
@@ -165,6 +168,9 @@
       const baseURL = 'https://www.ikea.com/kw/' + lang + '/';
       const $body = jQuery('body');
       const www = (lang == 'ar')? 'ar' : 'www';
+      
+      jQuery('#topMenu').hide();
+      
       
       // HTML code taken from M2 homepage
       const headerContent =
