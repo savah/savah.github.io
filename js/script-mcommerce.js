@@ -11,8 +11,8 @@
       window.location.href = "https://secure.ar.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=37&langId=-47";
   }
   //shopping list EN
-  if ((PrevURL === 'https://securem.ikea.com/kw/ar/login/') && (window.location.href.indexOf("/kw/en/shoppinglist/") > -1)) {
-      window.location.href = "https://secure.ar.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=37&langId=-47";
+  if ((PrevURL === 'https://securem.ikea.com/kw/en/login/') && (window.location.href.indexOf("/kw/en/shoppinglist/") > -1)) {
+      window.location.href = "https://secure.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=37&langId=-47";
   }
   
   //Registration AR sa/ar/login/create/
