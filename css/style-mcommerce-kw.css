@@ -1321,10 +1321,6 @@ body {
 
 /* disable checkout */
 
-#checkoutButtonTop {
-  display: none;
-}
-
-#checkoutButtonBottom {
+#checkoutButtonTop, #checkoutButtonBottom {
   display: none;
 }
