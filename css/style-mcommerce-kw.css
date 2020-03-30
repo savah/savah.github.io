@@ -1321,6 +1321,6 @@ body {
 
 /* disable checkout */
 
-#checkoutButtonTop, #checkoutButtonBottom {
+#checkoutButtonBoxTop, #checkoutButtonBoxBottom {
   display: none;
 }
