@@ -77,7 +77,7 @@
           maintag.height = '30px';
           var accountButton = document.createElement('a');
 
-          accountButton.href = 'https://secure.ikea.com/webapp/wcs/stores/servlet/MyProfile?catalogId=20001&langId=-47&storeId=37';
+          accountButton.href = 'https://secure.ikea.com/webapp/wcs/stores/servlet/MyProfile?catalogId=20001&langId=-83&storeId=55';
           var imagaccount = document.createElement('img');
           imagaccount.style.width = '30px';
           imagaccount.style.height = '30px';
@@ -93,6 +93,9 @@
   // Force MP_LANG to be set based on current UI language
   if (window.location.href.indexOf("ar.ikea.com") > -1) {
       setCookie("MP_LANG", "ar", 365);
+  }
+  else if (window.location.href.indexOf("fr.ikea.com") > -1) {
+      setCookie("MP_LANG", "fr", 365);         
   }
   else {
       setCookie("MP_LANG", "en", 365);
@@ -293,6 +296,7 @@
   }
 
   ready(function() {
+  /*
       if (
           document.location.pathname.indexOf('mcommerce/shoppingcart') > -1 ||
           document.location.pathname.indexOf('/wcs/stores/servlet/OrderItemDisplayMobile') > -1 ||
@@ -324,5 +328,6 @@
           if (footerHolder != null) document.getElementById('footer').classList.add('hideit');
           modifyHeaderFooter();
       }
+      */
   });
 })();
