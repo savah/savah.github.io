@@ -1,6 +1,7 @@
 (function () {
   'use strict';
   console.log('redirect loaded');
+  document.getElementById('checkoutButtonBoxBottom').style.display = "none";
 
   var PrevURL = document.referrer;
   
