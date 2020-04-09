@@ -2,6 +2,21 @@
   'use strict';
   console.log('redirect loaded');
   //document.getElementById('checkoutButtonBoxTop').style.display = "none";
+  
+  function chgAction( action_name )
+{
+    if( action_name=="shopRowTop" ) {
+        document.shopRowTop.action = "https://checkout.ma.ikea.com/checkout";
+    }
+    else if( action_name=="shopRowBottom" ) {
+        document.shopRowBottom.action = "https://checkout.ma.ikea.com/checkout";
+    }
+
+}
+ 
+  chgAction("shopRowTop");
+  chgAction("shopRowBottom");
+  
 
   var PrevURL = document.referrer;
   
