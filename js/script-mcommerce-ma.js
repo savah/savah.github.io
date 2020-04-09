@@ -3,19 +3,8 @@
   console.log('redirect loaded');
   //document.getElementById('checkoutButtonBoxTop').style.display = "none";
   
-  function chgAction( action_name )
-{
-    if( action_name=="shopRowTop" ) {
-        document.shopRowTop.action = "https://checkout.ma.ikea.com/checkout";
-    }
-    else if( action_name=="shopRowBottom" ) {
-        document.shopRowBottom.action = "https://checkout.ma.ikea.com/checkout";
-    }
 
-}
- 
-  chgAction("shopRowTop");
-  chgAction("shopRowBottom");
+
   
 
   var PrevURL = document.referrer;
@@ -312,6 +301,9 @@
   }
 
   ready(function() {
+    
+      document.shopRowTop.action = "https://checkout.ma.ikea.com/checkout";
+  document.shopRowBottom.action = "https://checkout.ma.ikea.com/checkout";
   /*
       if (
           document.location.pathname.indexOf('mcommerce/shoppingcart') > -1 ||
