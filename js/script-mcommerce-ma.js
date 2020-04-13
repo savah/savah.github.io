@@ -311,7 +311,7 @@
   }
 
   ready(function() {
-  
+  /*
   	if (document.getElementById("shopRowTop")) {
   		document.shopRowTop.action = "https://checkout.ma.ikea.com/checkout";
   	}
@@ -319,6 +319,7 @@
       	document.shopRowBottom.action = "https://checkout.ma.ikea.com/checkout";
   	}  
 
+*/
   /*
       if (
           document.location.pathname.indexOf('mcommerce/shoppingcart') > -1 ||
