@@ -59,6 +59,8 @@
   }
   
   // My Account Script Start
+  
+  /*
   var grabtag = document.createElement('button');
   grabtag.id = 'Grab';
   grabtag.addEventListener("click", function () {
@@ -76,6 +78,8 @@
           userstate = 1;
       }
   }
+  
+
 
   if (userstate == 1) {
       if (!document.getElementById('account-icon')) {
@@ -97,6 +101,7 @@
   }
   // My Account script End
 
+*/
 
   // Force MP_LANG to be set based on current UI language
   if (window.location.href.indexOf("ar.ikea.com") > -1) {
@@ -127,6 +132,7 @@
   const langs = document.documentElement.lang.toLocaleLowerCase().split('-');
   const lang = (langs[0] == 'ar')? 'ar' : 'en';
 
+/*
   function __(english) {
     const arabic = {
       'Products': 'المنتجات',
@@ -163,6 +169,7 @@
 
     return lang == 'ar' ? arabic[english] : english;
   };
+  */
 
   function ready(fn) {
     if (document.attachEvent ? document.readyState === 'complete' : document.readyState !== 'loading') {
@@ -304,9 +311,14 @@
   }
 
   ready(function() {
-    
-      document.shopRowTop.action = "https://checkout.ma.ikea.com/checkout";
-  document.shopRowBottom.action = "https://checkout.ma.ikea.com/checkout";
+  
+  	if (document.getElementById("shopRowTop")) {
+  		document.shopRowTop.action = "https://checkout.ma.ikea.com/checkout";
+  	}
+    if (document.getElementById("shopRowBottom")) {
+      	document.shopRowBottom.action = "https://checkout.ma.ikea.com/checkout";
+  	}  
+
   /*
       if (
           document.location.pathname.indexOf('mcommerce/shoppingcart') > -1 ||
