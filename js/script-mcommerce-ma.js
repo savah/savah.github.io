@@ -127,10 +127,10 @@
 
 (function() {
   'use strict';
-  console.log('reskin loaded');
+  //console.log('reskin loaded');
   
-  const langs = document.documentElement.lang.toLocaleLowerCase().split('-');
-  const lang = (langs[0] == 'ar')? 'ar' : 'en';
+  //const langs = document.documentElement.lang.toLocaleLowerCase().split('-');
+  //const lang = (langs[0] == 'ar')? 'ar' : 'en';
 
 /*
   function __(english) {
