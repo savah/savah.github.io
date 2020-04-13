@@ -12,18 +12,21 @@
 
    
   //shopping list AR
-  if ((PrevURL === 'https://securem.ar.ikea.com/kw/ar/login/') && (window.location.href.indexOf("/kw/ar/shoppinglist/") > -1)) {
-      window.location.href = "https://secure.ar.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=37&langId=-47";
+  if ((PrevURL === 'https://securem.ar.ikea.com/ma/ar/login/') && (window.location.href.indexOf("/ma/ar/shoppinglist/") > -1)) {
+      window.location.href = "https://secure.ar.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83";
   }
   //shopping list EN
-  if ((PrevURL === 'https://securem.ikea.com/kw/en/login/') && (window.location.href.indexOf("/kw/en/shoppinglist/") > -1)) {
-      window.location.href = "https://secure.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=37&langId=-47";
+  if ((PrevURL === 'https://securem.ikea.com/ma/en/login/') && (window.location.href.indexOf("/ma/en/shoppinglist/") > -1)) {
+      window.location.href = "https://secure.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83";
+  }
+    if ((PrevURL === 'https://securem.fr.ikea.com/ma/fr/login/') && (window.location.href.indexOf("/ma/fr/shoppinglist/") > -1)) {
+      window.location.href = "https://secure.fr.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83";
   }
   
   
 
   //Mobile Site Checkout Redirection
-  var newCheckoutLink = "https://checkout.kw.ikea.com/checkout";
+  var newCheckoutLink = "https://checkout.ma.ikea.com/checkout";
   if (window.location.href.indexOf("mcommerce/shoppingcart") > -1 || window.location.href.indexOf("webapp/wcs/stores/servlet/OrderItemDisplayMobile") > -1) {
 
     const shopRowTop = document.querySelector("#shopRowTop");
@@ -69,7 +72,7 @@
           grabtag.click();
           document.cookie = "Logout=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
       }
-      if (ca[i].indexOf('IRMW_USER_ID_KW') >= 0) {
+      if (ca[i].indexOf('IRMW_USER_ID_MA') >= 0) {
           userstate = 1;
       }
   }
@@ -155,7 +158,7 @@
       'Cookies policy': 'سياسة الكوكيز',
       'My profile': 'صفحتي الشخصية',
       
-      'https://secure.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=37&langId=-47': 'https://secure.ar.ikea.com/kw/ar/webapp/wcs/stores/servlet/LogonForm?storeId=37&langId=-47'
+      'https://secure.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83': 'https://secure.ar.ikea.com/kw/ar/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83'
     };
 
     return lang == 'ar' ? arabic[english] : english;
@@ -211,7 +214,7 @@
 
       var $trustMarks = jQuery('#trustMarksWrapper');
       if ($trustMarks) {
-          $trustMarks.html('<img alt="KNET" src="https://checkout.kw.ikea.com/Themes/K3Checkout/Content/images/knet_logo.png"> <img alt="visa card" src="https://checkout.kw.ikea.com/Themes/K3Checkout/Content/images/mc_visa_logo.png"> <img alt="amex" src="https://savah.github.io/img/amex_109.png">');
+          $trustMarks.html('<img alt="KNET" src="https://checkout.ma.ikea.com/Themes/K3Checkout/Content/images/knet_logo.png"> <img alt="visa card" src="https://checkout.kw.ikea.com/Themes/K3Checkout/Content/images/mc_visa_logo.png"> <img alt="amex" src="https://savah.github.io/img/amex_109.png">');
       }
       
       // show shopping-cart counter
