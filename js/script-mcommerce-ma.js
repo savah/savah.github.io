@@ -230,15 +230,12 @@
       const baseURL = 'https://www.ikea.com/ma/' + lang + '/';
       const $body = jQuery('body');
       
-      const www = 'www';
+      var www = 'www';
       if (lang == 'ar') {
       	www = 'ar';
       } else if (lang == 'fr'){
       	www = 'fr';
-      } else if (lang == 'en') {
-      	www = 'www';	
       }
-      
       
       jQuery('#topMenu').hide();
       
