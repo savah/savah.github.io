@@ -209,7 +209,7 @@
     };
 	if (lang == 'fr') {
 		return french[english];
-	} else if () {
+	} else if (lang == 'ar') {
 		return arabic[english];
 	} else {
 		return english;
@@ -236,7 +236,7 @@
       } else if (lang == 'fr'){
       	www = 'fr';
       } else if (lang == 'en') {
-      	www = 'www';
+      	www = 'www';	
       }
       
       
