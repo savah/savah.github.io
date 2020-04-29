@@ -230,7 +230,7 @@
       const baseURL = 'https://www.ikea.com/ma/' + lang + '/';
       const $body = jQuery('body');
       
-      //const www = (lang == 'ar')? 'ar' : 'www';
+      const www = 'www';
       if (lang == 'ar') {
       	www = 'ar';
       } else if (lang == 'fr'){
