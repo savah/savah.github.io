@@ -339,7 +339,6 @@
             '<li class="footer__list-item" ' + footerMenuStyle + '>' +
               '<h2 class="footer__item-headline">' + __('General information') + '</h2>' +
               '<ul class="footer__inner-list">' +
-                '<li class="footer__inner-item"><a href="' + baseURL + 'this-is-ikea/newsroom/" class="footer__item-link">' + __('Newsroom') + '</a></li>' +
                 '<li class="footer__inner-item"><a href="' + baseURL + 'customer-service/privacy-policy/" class="footer__item-link">' + __('Privacy policy') + '</a></li>' +
                 '<li class="footer__inner-item"><a href="' + baseURL + 'customer-service/cookie-policy/" class="footer__item-link">' + __('Cookies policy') + '</a></li>' +
               '</ul>' +
