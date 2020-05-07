@@ -20,8 +20,8 @@
   if ((PrevURL === 'https://securem.ikea.com/ma/en/login/') && (window.location.href.indexOf("/ma/en/shoppinglist/") > -1)) {
       window.location.href = "https://secure.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83";
   }
-    if ((PrevURL === 'https://securem.fr.ikea.com/ma/fr/login/') && (window.location.href.indexOf("/ma/fr/shoppinglist/") > -1)) {
-      window.location.href = "https://secure.fr.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83";
+    if ((PrevURL === 'https://securem.ikea.com/ma/fr/login/') && (window.location.href.indexOf("/ma/fr/shoppinglist/") > -1)) {
+      window.location.href = "https://secure.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83";
   }
   
   
@@ -108,7 +108,7 @@
   if (window.location.href.indexOf("ar.ikea.com") > -1) {
       setCookie("MP_LANG", "ar", 365);
   }
-  else if (window.location.href.indexOf("fr.ikea.com") > -1) {
+  else if (window.location.href.indexOf("www.ikea.com/ma/fr/") > -1) {
       setCookie("MP_LANG", "fr", 365);         
   }
   else {
@@ -205,7 +205,7 @@
       'Cookies policy': 'Cookies policy',
       'My profile': 'My profile',
       
-      'https://secure.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83': 'https://secure.fr.ikea.com/ma/fr/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83'
+      'https://secure.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83': 'https://secure.ikea.com/ma/fr/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83'
     };
 	if (lang == 'fr') {
 		return french[english];
