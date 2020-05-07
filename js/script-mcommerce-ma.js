@@ -108,7 +108,7 @@
   if (window.location.href.indexOf("ar.ikea.com") > -1) {
       setCookie("MP_LANG", "ar", 365);
   }
-  else if (window.location.href.indexOf("www.ikea.com/ma/fr/") > -1) {
+  else if (window.location.href.indexOf("ikea.com/ma/fr/") > -1) {
       setCookie("MP_LANG", "fr", 365);         
   }
   else {
@@ -176,34 +176,34 @@
       'https://secure.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83': 'https://secure.ar.ikea.com/ma/ar/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83'
     };
     const french = {
-      'Products': 'Products',
-      'Rooms': 'Rooms',
-      'IDEAS': 'Ideas',
-      'What\'s new': 'Whats new',
-      'Shopping list': 'Shopping list',
-      'Shopping bag': 'Shopping bag',
-      'This is IKEA': 'This is IKEA',
-      'About IKEA': 'About IKEA',
-      'Democratic design': 'Democratic design',
-      'Sustainable everyday': 'Sustainable everyday',
-      'Community engagement': 'Community engagement',
-      'Working at IKEA': 'Working at IKEA',
-      'Customer service': 'Customer service',
-      'About services': 'About services',
-      'About shopping': 'About shopping',
-      'Return policy': 'Return policy',
-      'Contact us': 'Contact us',
+      'Products': 'Produits',
+      'Rooms': 'Pièces',
+      'IDEAS': 'Des idées',
+      'What\'s new': 'Quoi de neuf',
+      'Shopping list': 'Favoris',
+      'Shopping bag': 'Panier',
+      'This is IKEA': 'Voici IKEA',
+      'About IKEA': 'À propos d\'IKEA',
+      'Democratic design': 'Conception démocratique',
+      'Sustainable everyday': 'Durable au quotidien',
+      'Community engagement': 'Engagement communautaire',
+      'Working at IKEA': 'Travailler chez IKEA',
+      'Customer service': 'Service Clients',
+      'About services': 'À propos des services',
+      'About shopping': 'A propos du shopping',
+      'Return policy': 'Politique de retour',
+      'Contact us': 'Nous contacter',
       'FAQ': 'FAQ',
-      'Useful links': 'Useful links',
-      'IKEA Business': 'IKEA Business',
-      'IKEA Catalogue and brochures': 'IKEA Catalogue and brochures',
-      'Planning tools': 'Planning tools',
-      'IKEA Restaurant': 'IKEA Restaurant',
-      'IKEA Stores': 'IKEA Store',
-      'General information': 'General information',
-      'Privacy policy': 'Privacy policy',
-      'Cookies policy': 'Cookies policy',
-      'My profile': 'My profile',
+      'Useful links': 'Liens utiles',
+      'IKEA Business': 'IKEA pour les entreprises',
+      'IKEA Catalogue and brochures': 'Catalogue et brochures IKEA',
+      'Planning tools': 'Outils de planification',
+      'IKEA Restaurant': 'Restaurant IKEA',
+      'IKEA Stores': 'Magasins IKEA',
+      'General information': 'Informations générales',
+      'Privacy policy': 'Politique de confidentialité',
+      'Cookies policy': 'Politique de cookies',
+      'My profile': 'Mon profil',
       
       'https://secure.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83': 'https://secure.ikea.com/ma/fr/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83'
     };
