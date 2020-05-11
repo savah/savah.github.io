@@ -133,7 +133,7 @@
   //const langs = document.documentElement.lang.toLocaleLowerCase().split('-');
   
   //const lang = (langs[0] == 'ar')? 'ar' : 'en';
-  const lang = 'fr';
+  var lang = 'fr';
   if (window.location.href.indexOf("/ma/ar/") > -1) {
   	lang = 'ar';
   } else if (window.location.href.indexOf("/ma/en/") > -1) {
