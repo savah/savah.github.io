@@ -130,14 +130,15 @@
   'use strict';
   console.log('reskin loaded');
   
-  const langs = document.documentElement.lang.toLocaleLowerCase().split('-');
+  //const langs = document.documentElement.lang.toLocaleLowerCase().split('-');
+  
   //const lang = (langs[0] == 'ar')? 'ar' : 'en';
   const lang = 'fr';
-  if (langs[0] == 'ar') {
+  if (window.location.href.indexOf("/ma/ar/") > -1) {
   	lang = 'ar';
-  } else if (langs[0] == 'en') {
+  } else if (window.location.href.indexOf("/ma/en/") > -1) {
   	lang = 'en';
-  } else if (langs[0] == 'fr'){
+  } else if (window.location.href.indexOf("/ma/fr/") > -1){
   	lang = 'fr';
   }
 
