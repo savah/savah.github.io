@@ -130,10 +130,19 @@
   'use strict';
   console.log('reskin loaded');
   
-  //const langs = document.documentElement.lang.toLocaleLowerCase().split('-');
+  const langs = document.documentElement.lang.toLocaleLowerCase().split('-');
   
   //const lang = (langs[0] == 'ar')? 'ar' : 'en';
   var lang = 'fr';
+  if (langs[0] == 'ar') {
+  	lang = 'ar';
+  } else if (langs[0] == 'en'){
+  	lang = 'en';
+  } else if (langs[0] == 'fr') {
+  	lang = 'fr';
+  }
+	
+/*
   if (window.location.href.indexOf("/ma/ar/") > -1) {
   	lang = 'ar';
   } else if (window.location.href.indexOf("/ma/en/") > -1) {
@@ -141,6 +150,7 @@
   } else if (window.location.href.indexOf("/ma/fr/") > -1){
   	lang = 'fr';
   }
+*/
 
 
   function __(english) {
