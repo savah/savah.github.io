@@ -216,7 +216,7 @@
       'Cookies policy': 'Politique de cookies',
       'My profile': 'Mon profil',
       
-      'https://secure.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83': 'https://secure.ikea.com/ma/fr/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83'
+      'https://secure.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-83': 'https://secure.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=55&langId=-81'
     };
 	if (lang == 'fr') {
 		return french[english];
