@@ -1319,8 +1319,10 @@ body {
 }
 
 
-/* disable checkout */
+/* disable checkout
 
 #checkoutButtonBoxTop, #checkoutButtonBoxBottom {
   display: none;
 }
+
+*/
