@@ -5,7 +5,8 @@ var themeID = 1;
 var ameyo_script = document.createElement('script');
 	ameyo_script.onload = function() {
 	try {
-		initializeChat(campaignId,nodeflowId,ameyoUrl,null,null,null,themeID)
+		//initializeChat(campaignId,nodeflowId,ameyoUrl,null,null,null,themeID)
+		initializeChat(campaignId,nodeflowId,ameyoUrl,null,null,null,themeID, null, "^[0-9]{8,}$");
 	} catch (err) {
 		console.error( err);
 	}
