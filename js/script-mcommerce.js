@@ -150,7 +150,7 @@
       'Cookies policy': 'سياسة الكوكيز',
       'My profile': 'صفحتي الشخصية',
       
-      'https://secure.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=37&langId=-47': 'https://secure.ar.ikea.com/kw/ar/webapp/wcs/stores/servlet/LogonForm?storeId=37&langId=-47'
+      'https://www.ikea.com/kw/en/profile/login/': 'https://www.ikea.com/kw/ar/profile/login/'
     };
 
     return lang == 'ar' ? arabic[english] : english;
